@@ -3,16 +3,25 @@
 <html>
     <head>
         <title>@ViewData["Title"]</title>
+        <link rel="stylesheet" href="~/css/site.css" />
     </head>
     <body>
+        <nav>
+            <a asp-controller="Home" asp-action="Index">Home Page</a> | 
+            <a asp-controller="Home" asp-action="About">About Page</a> | 
+            <a asp-controller="Home" asp-action="Contact">Contact Page</a>
+        </nav>
+
         <header>
             <h1>Welcome to my first site!</h1>
         </header>
+
         <main>
             @RenderBody()
         </main>
+
         <footer>
-            &copy;@DateTime.Today.Year
+            &copy;@DateTime.Today.Year | Privacy Policy | Info
         </footer>
     </body>
 </html>

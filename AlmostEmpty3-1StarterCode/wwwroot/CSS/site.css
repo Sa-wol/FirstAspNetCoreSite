@@ -1,0 +1,28 @@
+﻿body {
+    background-color:#EDB88B;
+    text-align:center;
+    color:black;
+    width:auto;
+    height:auto;
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color:indigo;
+}
+
+p {
+    padding-top: 30px;
+    font-weight:300;
+}
+
+footer {
+    background-color:indigo;
+    color:white;
+    position:absolute;
+    bottom: 0%;
+    width:98%;
+}
